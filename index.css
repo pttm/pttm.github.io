@@ -60,6 +60,25 @@ label {
     cursor: default;
 }
 
+@media print {
+    .container {
+        margin: 0px;
+        padding: 0px;
+        max-width: 1140px;
+    }
+    .container section {
+        page-break-before: always;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .container section:first-child {
+        page-break-before: inherit;
+    }
+    .container p {
+        page-break-inside: auto;
+    }
+}
+
 /* .container section {
     margin: 20px 0px 20px 0px;
 }
@@ -128,22 +147,4 @@ time, label {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     cursor: default;
 }
-
-@media print {
-    .container {
-        margin: 0px;
-        padding: 0px;
-        max-width: 1140px;
-    }
-    .container h1 {
-        page-break-before: always;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-    .container h1:first-child {
-        page-break-before: inherit;
-    }
-    .container p {
-        page-break-inside: auto;
-    }
-} */
+*/
