@@ -1,0 +1,149 @@
+body {
+    background-image: url("pub/img/bgcolor.jpg");
+    background-position: left top;
+    background-repeat: repeat;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.container {
+    font-family: 'Catamaran', sans-serif;
+    margin-bottom: 0.5em;
+}
+
+.container section dt {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container section dt a {
+    font-weight: normal;
+}
+
+.container section {
+    margin: 2em 0px 2em 0px;
+}
+
+.container section:first-child {
+    margin: 0em 0em 0em 0em;
+}
+
+.container section h1 {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    margin: 1.5em 0em 1.5em 0em;
+    padding: 20px 20px 20px 20px;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+}
+
+.container section h4 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+label {
+    background-color: rgb(180, 180, 180);
+    text-transform: uppercase;
+    padding: 0px 5px;
+    display: inline-block;
+    margin-bottom: 0px;
+    font-size: 80%;
+    color: #fff;
+    border-radius: .2rem;
+    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    cursor: default;
+}
+
+/* .container section {
+    margin: 20px 0px 20px 0px;
+}
+
+.container section h4 {
+    border-top: 1px solid lightgray;
+    padding-top: 30px;
+}
+
+.container section h4:first-child {
+    border-top: 0px;
+    padding-top: 0px;
+}
+
+.container section dl dt, .container section dl dd {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.container .profile dl dt, .container .profile dl dd {
+    border-bottom: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.container references p {
+    margin-bottom: 0px;
+}
+
+.container a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+.container dl dt p {
+    margin-bottom: 0px;
+}
+
+nav .nav-item, nav .navbar-text {
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav .navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+nav a.nav-link.active {
+    background-color: rgb(100,100,100) !important;
+}
+
+nav a {
+    font-size: 0.8em;
+}
+
+time, label {
+    background-color: rgb(180, 180, 180);
+    text-transform: uppercase;
+    padding: .1rem .2rem;
+    display: inline-block;
+    margin-bottom: 0px;
+    font-size: 80%;
+    color: #fff;
+    border-radius: .2rem;
+    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    cursor: default;
+}
+
+@media print {
+    .container {
+        margin: 0px;
+        padding: 0px;
+        max-width: 1140px;
+    }
+    .container h1 {
+        page-break-before: always;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .container h1:first-child {
+        page-break-before: inherit;
+    }
+    .container p {
+        page-break-inside: auto;
+    }
+} */
